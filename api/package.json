@@ -1,0 +1,41 @@
+{
+  "name": "mechanet",
+  "version": "1.0.0",
+  "description": "connecting car owners to mechanics and car maintainance",
+  "main": "index.js",
+   "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-ibits/mechanet.git"
+  },
+  "keywords": [
+    "mechanet"
+  ],
+  "author": "samuel-ibits",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-ibits/mechanet/issues"
+  },
+  "homepage": "https://github.com/samuel-ibits/mechanet#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "amqplib": "^0.10.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+   
+}
+
